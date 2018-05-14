@@ -17,7 +17,7 @@ app.set('view engine', 'jade');
 
 // rendertron
 app.use(rendertron.makeMiddleware({
-  proxyUrl: 'https://render-tron.appspot.com/',
+  proxyUrl: 'https://render-tron.appspot.com/render/',
 }));
 
 
