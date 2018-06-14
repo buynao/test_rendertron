@@ -5,5 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+/* GET home page. */
+router.get('/pwa', function(req, res, next) {
+  res.render('pwa', { title: 'pwa' });
+});
 
 module.exports = router;
